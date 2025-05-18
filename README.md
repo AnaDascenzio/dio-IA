@@ -23,7 +23,15 @@ A ferramenta suporta:
 - **Análise semântica** e entendimento do contexto da busca.
 - Integração com **Power BI**, **aplicativos personalizados** ou **chatbots**.
 
-É ideal para aplicações como: portais de conhecimento, busca jurídica, pesquisa em acervos digitais, entre outros, permitindo uma navegação mais inteligente e eficaz pelos dad
+É ideal para aplicações como: portais de conhecimento, busca jurídica, pesquisa em acervos digitais, entre outros, permitindo uma navegação mais inteligente e eficaz pelos dados.
+
+Laboratório prático
+- Primeiro, criamos uma Azure AI Service com o plano básico, e o AI search
+- Depois, vamos em storage account, para criar uma nova, colocando o a assinatura e o resource group. A performance permaneceu em standard.
+- depois de criado o storage account, selecionar ele e liberar acesso para acessos anonimos de blob
+- Proximo passo é trazer alguns arquivos para dentro do nosso container
+- Ir no mecanismo de busca e importar dados - selecionar onde estão as informações dos meus dados cognitivos
+- Por fim, pesquisar pelos documentos usando o Search explorer, como opiniões positivas ou negativas ou localizações
 
 📚 Referências
 Documentação oficial do Azure Cognitive Search
@@ -37,6 +45,3 @@ https://learn.microsoft.com/en-us/azure/search/search-get-started-portal
 
 Recursos de enriquecimento cognitivo
 https://learn.microsoft.com/en-us/azure/search/cognitive-search-concept-intro
-
-Azure AI Search pricing (para entender os planos)
-https://azure.microsoft.com/en-us/pricing/details/search/
