@@ -33,6 +33,36 @@ Laboratório prático
 - Ir no mecanismo de busca e importar dados - selecionar onde estão as informações dos meus dados cognitivos
 - Por fim, pesquisar pelos documentos usando o Search explorer, como opiniões positivas ou negativas ou localizações
 
+- # Resumo sobre IA Generativa e OpenAI
+
+## O que é IA Generativa?
+
+A **IA Generativa** é um ramo da inteligência artificial focado em criar conteúdo novo e original, como texto, imagens, áudio ou vídeo, com base em padrões aprendidos a partir de grandes volumes de dados. Ela pode produzir desde respostas em linguagem natural até imagens artísticas e código de programação.
+
+## Fases Principais da IA Generativa
+
+1. **Tokenização**  
+   Processo que divide o texto (ou outros dados) em unidades menores chamadas *tokens* — que podem ser palavras, pedaços de palavras ou caracteres. Essa divisão permite que o modelo processe e compreenda a entrada de forma eficiente.
+
+2. **Codificação e Embeddings**  
+   Cada token é convertido em um vetor numérico (embedding) que representa seu significado contextual para que o modelo possa analisar as relações entre eles.
+
+3. **Processamento pelo Modelo**  
+   O modelo, geralmente baseado em arquiteturas como *Transformers*, processa esses embeddings para entender o contexto, prever o próximo token ou gerar saídas baseadas na entrada.
+
+4. **Geração de Saída**  
+   O modelo gera novo conteúdo token a token, formando texto, imagens ou outras mídias conforme o tipo de IA generativa.
+
+## OpenAI
+
+**OpenAI** é uma organização líder no desenvolvimento de modelos avançados de IA generativa, incluindo:
+
+- **GPT (Generative Pre-trained Transformer):** modelo focado em geração e compreensão de texto.
+- **DALL·E:** modelo que gera imagens a partir de descrições textuais.
+
+No **Azure OpenAI Service**, esses modelos são disponibilizados na nuvem, permitindo que empresas integrem IA generativa em seus aplicativos com segurança, escalabilidade e facilidade.
+
+
 📚 Referências
 Documentação oficial do Azure Cognitive Search
 https://learn.microsoft.com/azure/search/
@@ -45,3 +75,18 @@ https://learn.microsoft.com/en-us/azure/search/search-get-started-portal
 
 Recursos de enriquecimento cognitivo
 https://learn.microsoft.com/en-us/azure/search/cognitive-search-concept-intro
+
+Documentação oficial do Azure OpenAI Service
+https://learn.microsoft.com/azure/cognitive-services/openai/
+
+Visão geral dos modelos GPT
+https://openai.com/research/gpt-4
+
+DALL·E e geração de imagens por IA
+https://openai.com/dall-e
+
+Explicação sobre tokenização e modelos Transformers 
+https://jalammar.github.io/illustrated-transformer/
+
+Artigo Microsoft sobre IA responsável e Azure Cognitive Services
+https://learn.microsoft.com/azure/ai/responsible-ai
